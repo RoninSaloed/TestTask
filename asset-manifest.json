@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/TestTask/static/css/main.980dfbd0.css",
+    "main.js": "/TestTask/static/js/main.ffecf7de.js",
+    "static/media/information.png": "/TestTask/static/media/information.cff66695c61b9e9363f3.png",
+    "static/media/success-image.svg": "/TestTask/static/media/success-image.147ff01aeb0caaca03a3.svg",
+    "static/media/menuLogo.svg": "/TestTask/static/media/menuLogo.56bda82bd882001476c0.svg",
+    "index.html": "/TestTask/index.html",
+    "main.980dfbd0.css.map": "/TestTask/static/css/main.980dfbd0.css.map",
+    "main.ffecf7de.js.map": "/TestTask/static/js/main.ffecf7de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.980dfbd0.css",
+    "static/js/main.ffecf7de.js"
+  ]
+}
