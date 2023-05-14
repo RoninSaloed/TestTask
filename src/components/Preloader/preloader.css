@@ -1,0 +1,47 @@
+
+
+
+
+
+
+
+
+
+@keyframes ldio-zgxx64th47 {
+    0% { transform: translate(-50%,-50%) rotate(0deg); }
+    100% { transform: translate(-50%,-50%) rotate(360deg); }
+}
+.ldio-zgxx64th47 div {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 5px solid #695be1;
+    border-top-color: transparent;
+    border-radius: 50%;
+}
+
+.ldio-zgxx64th47 div {
+    animation: ldio-zgxx64th47 1s linear infinite;
+    top: 50%;
+    left: 50%
+}
+
+.loadingio-spinner-rolling-wopxwk46ahe {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    overflow: hidden;
+    background: rgba(241, 242, 243, 0);
+}
+
+.ldio-zgxx64th47 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0;
+}

@@ -1,0 +1,103 @@
+.information{
+    max-width: 1170px;
+    height: 650px;
+    background-image: url("./information.png");
+    background-size:1170px 650px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.informationBody{
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    max-width: 380px;
+    text-align: center;
+    margin: 0 auto;
+}
+.informationTitle{
+    padding: 165px 0 20px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+
+}
+.informationSubtitle{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+margin: 0 0 32px 0;
+}
+.informationButton{
+    width: 100px;
+    height: 34px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #F4E041;
+    border: none;
+    border-radius: 80px;
+    box-shadow: 0px 0px 0px #000;
+    transition: 0.1s;
+}
+
+
+
+.informationButton:active{
+box-shadow: 1px 1px 1px #000;
+}
+@media(max-width:768px){
+    .information{
+        max-width: 1170px;
+        height: 500px;
+        background-image: url("./information.png");
+        background-size:1170px 650px;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+    
+    .informationTitle{
+        padding: 89px 0 20px 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 40px;
+    
+    }
+}
+@media(max-width:768px){
+    .information{
+        max-width: 1170px;
+        height: 500px;
+        background-image: url("./information.png");
+        background-size:1170px 650px;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+    
+    .informationTitle{
+        padding: 40px 0 20px 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 40px;
+    
+    }
+    .informationBody{
+        color: #fff;
+        font-family: 'Nunito', sans-serif;
+        max-width: 380px;
+        text-align: center;
+        margin: 0 auto;
+    }
+}   
+/* @media(max-width:360px){
+   
+    .informationBody{
+        color: #fff;
+        font-family: 'Nunito', sans-serif;
+        max-width: 380px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 16px;
+    }
+}    */

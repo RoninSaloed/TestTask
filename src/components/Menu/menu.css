@@ -1,0 +1,73 @@
+.menu{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+   
+}
+.menuContainer{
+    font-family: 'Nunito', sans-serif;
+    height: 60px;
+    max-width: 1170px;    
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menuLogo{
+    background-image: url("./menuLogo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100px;
+    height: 60px;
+}
+.menuLogoBody{
+    display: flex;
+    align-items: center;
+}
+.menuButtonBody button:first-child{
+    margin: 0 10px 0 0;
+}
+.menuButtonBody{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.menuAnchor{
+    width: 100px;
+    height: 34px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #F4E041;
+    border: none;
+    border-radius: 80px;
+    box-shadow: 0px 0px 0px #000;
+    transition: 0.1s;
+
+}
+.menuAnchor:active{
+    box-shadow: 1px 1px 1px #000;
+
+}
+@media(max-width:1024px){
+    .menuLogo{
+        margin: 0 0 0 60px;
+    }
+    .menuButtonBody{
+        margin: 0 60px 0 0 ;
+    }
+}
+@media(max-width:768px){
+    .menuLogo{
+        margin: 0 0 0 32px;
+    }
+    .menuButtonBody{
+        margin: 0 32px 0 0 ;
+    }
+}
+@media(max-width:360px){
+    .menuLogo{
+        margin: 0 0 0 16px;
+    }
+    .menuButtonBody{
+        margin: 0 16px 0 0 ;
+    }
+}
